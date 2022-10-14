@@ -3,20 +3,25 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: gainsboro;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .logo {
     height: 100px;
+    width: 100px;
 }
 
-.lista {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-}
 
 .lista li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
     margin: 10px;
     margin-top: 30px;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
 }

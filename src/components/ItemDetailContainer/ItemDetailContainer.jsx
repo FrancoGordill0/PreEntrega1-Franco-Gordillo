@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from "react";
-
-import "./ItemListContainer.css";
-import ItemList from "../ItemList/ItemList";
+import React, {useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
+import ItemDetail from "../ItemDetail/ItemDetail";
 
 
-
-const productos = [
+const products = [
     { id: 1, 
       image: "https://fanatec.com/media/image/6e/8c/24/Product_Page_top_banner_GT_DD_PRO_Boost_Kit_180.jpg", 
       title: "Base CSL DD Pro + fuente 8nm", 
@@ -38,38 +35,32 @@ const productos = [
 ];
 
 
-export const ItemListContainer = ({ greeting }) => {
 
-    const [data, setData] = useState([]);
+export const ItemDetailContainer = () =>{
+    
+
+    const [data, setData] = useState({});
 
 
-    const {categoriaId} = useParams();
+    const { detalleId } = useParams();
 
 
     useEffect(() => {
         const getData = new Promise(resolve => {
             setTimeout(() => {
-                resolve(productos);
+                resolve(products);
             }, 1000);
         });
-        if (categoriaId) {
-            getData.then(res => setData (res.filter(prod => prod.category === categoriaId)));
-        }else {
-            getData.then(res => setData(res));
-        }
+        
+        getData.then(res => setData (res.find(prod => prod.id === parseInt(detalleId))));
 
-    }, [categoriaId])
-
-
+    }, [detalleId])
+    
     return (
-        <div className="cont">
-                {greeting}
-            <div className="itemList">
-                <ItemList data={data} />
-            </div>
-        </div>
-
+        <ItemDetail data={data}/>
     )
 }
 
-export default ItemListContainer;
+
+export default ItemDetailContainer;
+

@@ -1,0 +1,19 @@
+.contador{
+    width: fit-content;
+    background-color: lightgray;
+    margin-left: 42%;
+    padding: 50px;
+    text-align: center;
+}
+
+.disminuir{
+    margin-right: 10px;
+}
+
+.aumentar{
+    margin-left: 10px;
+}
+
+.agregar{
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.detalle {
+    display: block;
+    width: 100%;
+}
+
+.detalle img {
+    margin-top: 30px;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
