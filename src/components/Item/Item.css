@@ -1,9 +1,9 @@
-.bases {
-    display: block;
-    width: 300px;
+.items {
+    display: grid;
+    
 }
 
-.bases img {
+.items img {
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -1,9 +1,5 @@
 .contador{
-    width: fit-content;
-    background-color: lightgray;
-    margin-left: 42%;
-    padding: 50px;
-    text-align: center;
+    padding: 40px;
 }
 
 .disminuir{

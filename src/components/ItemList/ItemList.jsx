@@ -1,9 +1,14 @@
 import Item from "../Item/Item";
 import React from "react";
+import "./ItemList.css"
 
 const ItemList = ({data = [] }) => {
     return (
-        data.map(volante => <Item key={volante.id} desc={volante} />)
+        <div className="itemList">
+            {
+                data.map(volante => <Item key={volante.id} desc={volante} />)
+            }
+        </div>
     );
 }
 

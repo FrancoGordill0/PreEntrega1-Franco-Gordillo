@@ -1,0 +1,60 @@
+.tituloCart{
+    margin-bottom: 25px;
+}
+
+.container-xxl{
+    margin-top: 20px;
+}
+
+.botones{
+    margin-left: 10px;
+}
+
+.CartCont{
+    display: grid;
+    justify-content: space-around;
+    
+}
+
+.CartCont p{
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.CartCont a{
+    font-size: 30px;
+}
+
+
+.ItemCont {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid;
+    width: 50%;
+}
+
+.formulario input{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid ;
+}
+
+.formulario button{
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
