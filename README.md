@@ -35,7 +35,7 @@ E-commerce orientado a la venta de Hardware exclusivo para SimRacing(Automovilis
 ```
 
 ### Observación
-Esta apliación no está optimizada para su uso en dispositivos móviles/tablets.
+Esta aplicación no está optimizada para su uso en dispositivos móviles/tablets.
 
 ### Autor
 **[Franco Gordillo](https://www.linkedin.com/in/franco-marcelo-gordillo-urday-386199203/)**
