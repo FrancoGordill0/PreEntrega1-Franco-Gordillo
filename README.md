@@ -5,7 +5,7 @@ E-commerce orientado a la venta de Hardware exclusivo para SimRacing(Automovilis
 
 ### Instalación
 - Instalar Git y NodeJS por `npm`
-- Clonar repositorio con `git clone https://github.com/FrancoGordill0/React-Proyecto-final-Franco-Gordillo`
+- Clonar repositorio con `git clone https://github.com/FrancoGordill0/React-Proyecto-Final`
 - Instalar el proyecto de forma local con `npm install`
 - Iniciar proyecto con `npm start`
 
