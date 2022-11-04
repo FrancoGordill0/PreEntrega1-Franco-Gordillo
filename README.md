@@ -26,6 +26,7 @@ E-commerce orientado a la venta de Hardware exclusivo para SimRacing(Automovilis
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.13.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
