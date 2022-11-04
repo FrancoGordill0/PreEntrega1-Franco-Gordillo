@@ -1,7 +1,7 @@
 # Proyecto React. Coderhouse-Comisión 38120
 
 ### Descripción
-La temática de ésta aplicación está orientada a la venta de Hardware exclusivo para SimRacing(Automovilismo Virtual)
+E-commerce orientado a la venta de Hardware exclusivo para SimRacing(Automovilismo Virtual).
 
 ### Instalación
 - Instalar Git y NodeJS por `npm`
@@ -29,11 +29,12 @@ La temática de ésta aplicación está orientada a la venta de Hardware exclusi
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.6.5",
     "web-vitals": "^2.1.4"
 ```
 
 ### Observación
-Esta web no está diseñada para su uso en dispotivos móviles/tablets
+Esta apliación no está optimizada para su uso en dispositivos móviles/tablets.
 
 ### Autor
 **[Franco Gordillo](https://www.linkedin.com/in/franco-marcelo-gordillo-urday-386199203/)**

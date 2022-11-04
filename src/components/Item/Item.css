@@ -1,6 +1,6 @@
 .items {
     display: grid;
-    
+    margin-top: 20px;
 }
 
 .items img {

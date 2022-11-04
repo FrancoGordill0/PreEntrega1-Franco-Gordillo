@@ -3,16 +3,18 @@ import {getFirestore, collection, getDocs, query, where} from "firebase/firestor
 import "./ItemListContainer.css";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
+import { Loader } from "../Loader/Loader";
 
 
-export const ItemListContainer = ({ greeting }) => {
+
+export const ItemListContainer = () => {
 
     const [data, setData] = useState([]);
-
 
     const {categoriaId} = useParams();
 
     const [loading, setLoading] = useState(true);
+
 
     useEffect(() => {
         
@@ -34,12 +36,13 @@ export const ItemListContainer = ({ greeting }) => {
 
 
     return (
-        <div className="contenedorPadre container-fluid-xl">
-                {greeting}
-                {
-                loading ? <p>Loading...</p> :
+        <div className="contenedorPadre">
+                
+                { 
+                loading ? <Loader/> : 
                 <ItemList data={data} />
                 }
+                
         </div>
 
     )

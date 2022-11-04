@@ -13,17 +13,28 @@
 .CartCont{
     display: grid;
     justify-content: space-around;
-    
+    justify-items: center;
 }
 
-.CartCont p{
+.CartCont h2 {
+    margin-top: 20px;
+}
+
+.CartCont h3 {
     margin-top: 40px;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
+
+
 .CartCont a{
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.CartCont img {
+    margin-top: 40px;
+    width: 100%;
 }
 
 

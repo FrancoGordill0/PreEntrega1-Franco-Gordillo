@@ -14,7 +14,7 @@ export const ItemDetail = ({data}) =>{
     }
 
     return (
-        <div className="detalle container-fluid container-l">
+        <div className="detalle">
             <img src={data.image} alt="" />
             <div>
                 <h1>{data.title}</h1>
